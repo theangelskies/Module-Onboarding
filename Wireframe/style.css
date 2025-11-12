@@ -26,6 +26,20 @@ As well as useful links to learn more */
 }
 /* ====== Base Elements ======
  General rules for basic HTML elements in any context */
+ header {
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5em;
+}
+
+header p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
 body {
   background: var(--paper);
   color: var(--ink);
