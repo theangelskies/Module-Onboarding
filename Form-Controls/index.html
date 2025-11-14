@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>My form exercise</title>
-    <meta name="description" content="" />
+    
+    <title>Angela form exercise</title>
+    <meta name="description" content="T-shirt order form" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
@@ -13,15 +14,118 @@
     </header>
     <main>
       <form>
-        <!-- write your html here-->
-        <!-- 
-          try writing out the requirements first as comments
-        this will also help you fill in your PR message later-->
+        <section>
+          <h2>Customer Details</h2>
+
+          <!-- Full Name -->
+          <fieldset>
+            <label for="name">
+              Full Name
+              <br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                minlength="2"
+                placeholder="Enter your full name"
+              />
+            </label>
+          </fieldset>
+
+          <!-- Email Address -->
+          <fieldset>
+            <label for="email">
+              Email Address
+              <br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="example@email.com"
+              />
+            </label>
+          </fieldset>
+        </section>
+
+        <!-- T-shirt Colour -->
+        <section>
+          <h2>Choose T-shirt Colour</h2>
+
+          <fieldset>
+            <label>
+              <input type="radio" name="colour" value="red" required />
+              Red
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <label>
+              <input type="radio" name="colour" value="blue" required />
+              Blue
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <label>
+              <input type="radio" name="colour" value="green" required />
+              Green
+            </label>
+          </fieldset>
+        </section>
+
+        <!-- Size Selection -->
+        <section>
+          <h2>Choose T-shirt Size</h2>
+
+          <fieldset>
+            <label>
+              <input type="radio" name="size" value="XS" required />
+              XS
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <label>
+              <input type="radio" name="size" value="S" required />
+              S
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <label>
+              <input type="radio" name="size" value="M" required />
+              M
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <label>
+              <input type="radio" name="size" value="L" required />
+              L
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <label>
+              <input type="radio" name="size" value="XL" required />
+              XL
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <label>
+              <input type="radio" name="size" value="XXL" required />
+              XXL
+            </label>
+          </fieldset>
+        </section>
+
+        <!-- Submit Button -->
+        <button type="submit">order</button>
       </form>
     </main>
-    <footer>
-      <!-- change to your name-->
-      <h2>By HOMEWORK SOLUTION</h2>
-    </footer>
+    <footer>© 2025 Angelscraper</footer>
   </body>
 </html>
